@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+<head><title>R: Plotting data and annotation information along genomic
+coordinates</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body><div class="container">
+<h1> Plotting data and annotation information along genomic
+coordinates
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;Gviz&rsquo; version 1.40.1</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+<li><a href="../doc/index.html">User guides, package vignettes and other documentation.</a></li>
+<li><a href="../NEWS">Package NEWS</a>.</li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<p style="text-align: center;">
+<a href="#A">A</a>
+<a href="#B">B</a>
+<a href="#C">C</a>
+<a href="#D">D</a>
+<a href="#E">E</a>
+<a href="#F">F</a>
+<a href="#G">G</a>
+<a href="#H">H</a>
+<a href="#I">I</a>
+<a href="#K">K</a>
+<a href="#L">L</a>
+<a href="#M">M</a>
+<a href="#N">N</a>
+<a href="#P">P</a>
+<a href="#R">R</a>
+<a href="#S">S</a>
+<a href="#T">T</a>
+<a href="#U">U</a>
+<a href="#V">V</a>
+<a href="#W">W</a>
+<a href="#misc">misc</a>
+</p>
+
+
+<h2><a name="A">-- A --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="settings.html">addScheme</a></td>
+<td>Setting display parameters to control the look and feel of the plots</td></tr>
+<tr><td style="width: 25%;"><a href="AlignmentsTrack-class.html">AlignmentsTrack</a></td>
+<td>AlignmentsTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="AlignmentsTrack-class.html">AlignmentsTrack-class</a></td>
+<td>AlignmentsTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="DisplayPars-class.html">as.list-method</a></td>
+<td>DisplayPars: A class to control the plotting parameters for GdObjects</td></tr>
+<tr><td style="width: 25%;"><a href="ReferenceTrack-class.html">availableDefaultMapping</a></td>
+<td>ReferenceTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="DisplayPars-class.html">availableDisplayPars</a></td>
+<td>DisplayPars: A class to control the plotting parameters for GdObjects</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">axTrack</a></td>
+<td>Data sets</td></tr>
+</table>
+
+<h2><a name="B">-- B --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="BiomartGeneRegionTrack-class.html">BiomartGeneRegionTrack</a></td>
+<td>BiomartGeneRegionTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="BiomartGeneRegionTrack-class.html">BiomartGeneRegionTrack-class</a></td>
+<td>BiomartGeneRegionTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">biomTrack</a></td>
+<td>Data sets</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">biomTrack2</a></td>
+<td>Data sets</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">bmt</a></td>
+<td>Data sets</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">bmTrack</a></td>
+<td>Data sets</td></tr>
+</table>
+
+<h2><a name="C">-- C --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">chromosome-method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="SequenceTrack-class.html">chromosome-method</a></td>
+<td>SequenceTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="AlignmentsTrack-class.html">chromosome&lt;--method</a></td>
+<td>AlignmentsTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="HighlightTrack-class.html">chromosome&lt;--method</a></td>
+<td>HighlightTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="IdeogramTrack-class.html">chromosome&lt;--method</a></td>
+<td>IdeogramTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">chromosome&lt;--method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="SequenceTrack-class.html">chromosome&lt;--method</a></td>
+<td>SequenceTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="UcscTrack.html">clearSessionCache</a></td>
+<td>Meta-constructor for Gviz tracks fetched directly from the various UCSC data sources.</td></tr>
+<tr><td style="width: 25%;"><a href="collapsing.html">collapsing</a></td>
+<td>Dynamic content based on the available resolution</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">conservation</a></td>
+<td>Data sets</td></tr>
+<tr><td style="width: 25%;"><a href="HighlightTrack-class.html">consolidateTrack-method</a></td>
+<td>HighlightTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">consolidateTrack-method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="SequenceTrack-class.html">consolidateTrack-method</a></td>
+<td>SequenceTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="StackedTrack-class.html">consolidateTrack-method</a></td>
+<td>StackedTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">cpgIslands</a></td>
+<td>Data sets</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">ctrack</a></td>
+<td>Data sets</td></tr>
+<tr><td style="width: 25%;"><a href="CustomTrack-class.html">CustomTrack</a></td>
+<td>CustomTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="CustomTrack-class.html">CustomTrack-class</a></td>
+<td>CustomTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">cyp2b10</a></td>
+<td>Data sets</td></tr>
+</table>
+
+<h2><a name="D">-- D --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="datasets.html">datasets</a></td>
+<td>Data sets</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">denseAnnTrack</a></td>
+<td>Data sets</td></tr>
+<tr><td style="width: 25%;"><a href="DisplayPars-class.html">DisplayPars</a></td>
+<td>DisplayPars: A class to control the plotting parameters for GdObjects</td></tr>
+<tr><td style="width: 25%;"><a href="DisplayPars-class.html">displayPars</a></td>
+<td>DisplayPars: A class to control the plotting parameters for GdObjects</td></tr>
+<tr><td style="width: 25%;"><a href="DisplayPars-class.html">DisplayPars-class</a></td>
+<td>DisplayPars: A class to control the plotting parameters for GdObjects</td></tr>
+<tr><td style="width: 25%;"><a href="DisplayPars-class.html">displayPars-method</a></td>
+<td>DisplayPars: A class to control the plotting parameters for GdObjects</td></tr>
+<tr><td style="width: 25%;"><a href="DisplayPars-class.html">displayPars&lt;-</a></td>
+<td>DisplayPars: A class to control the plotting parameters for GdObjects</td></tr>
+<tr><td style="width: 25%;"><a href="DisplayPars-class.html">displayPars&lt;--method</a></td>
+<td>DisplayPars: A class to control the plotting parameters for GdObjects</td></tr>
+<tr><td style="width: 25%;"><a href="HighlightTrack-class.html">displayPars&lt;--method</a></td>
+<td>HighlightTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="AlignmentsTrack-class.html">drawAxis-method</a></td>
+<td>AlignmentsTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="NumericTrack-class.html">drawAxis-method</a></td>
+<td>NumericTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="AlignmentsTrack-class.html">drawGD-method</a></td>
+<td>AlignmentsTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="CustomTrack-class.html">drawGD-method</a></td>
+<td>CustomTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="GeneRegionTrack-class.html">drawGD-method</a></td>
+<td>GeneRegionTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="IdeogramTrack-class.html">drawGD-method</a></td>
+<td>IdeogramTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="SequenceTrack-class.html">drawGD-method</a></td>
+<td>SequenceTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="StackedTrack-class.html">drawGD-method</a></td>
+<td>StackedTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="NumericTrack-class.html">drawGrid-method</a></td>
+<td>NumericTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">dtHoriz</a></td>
+<td>Data sets</td></tr>
+</table>
+
+<h2><a name="E">-- E --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="IdeogramTrack-class.html">end-method</a></td>
+<td>IdeogramTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">end-method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="SequenceTrack-class.html">end-method</a></td>
+<td>SequenceTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="IdeogramTrack-class.html">end&lt;--method</a></td>
+<td>IdeogramTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">end&lt;--method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">ensGenes</a></td>
+<td>Data sets</td></tr>
+<tr><td style="width: 25%;"><a href="GeneRegionTrack-class.html">exon-method</a></td>
+<td>GeneRegionTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="GeneRegionTrack-class.html">exon&lt;--method</a></td>
+<td>GeneRegionTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="exportTracks.html">exportTracks</a></td>
+<td>Export Gviz tracks into an annotation file representation.</td></tr>
+</table>
+
+<h2><a name="F">-- F --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">feature-method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">feature&lt;--method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">from</a></td>
+<td>Data sets</td></tr>
+</table>
+
+<h2><a name="G">-- G --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="datasets.html">gcContent</a></td>
+<td>Data sets</td></tr>
+<tr><td style="width: 25%;"><a href="GeneRegionTrack-class.html">gene-method</a></td>
+<td>GeneRegionTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="GeneRegionTrack-class.html">gene&lt;--method</a></td>
+<td>GeneRegionTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">geneDetails</a></td>
+<td>Data sets</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">geneModels</a></td>
+<td>Data sets</td></tr>
+<tr><td style="width: 25%;"><a href="GeneRegionTrack-class.html">GeneRegionTrack</a></td>
+<td>GeneRegionTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="GeneRegionTrack-class.html">GeneRegionTrack-class</a></td>
+<td>GeneRegionTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">genome-method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="SequenceTrack-class.html">genome-method</a></td>
+<td>SequenceTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="IdeogramTrack-class.html">genome&lt;--method</a></td>
+<td>IdeogramTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">genome&lt;--method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="DisplayPars-class.html">getPar</a></td>
+<td>DisplayPars: A class to control the plotting parameters for GdObjects</td></tr>
+<tr><td style="width: 25%;"><a href="DisplayPars-class.html">getPar-method</a></td>
+<td>DisplayPars: A class to control the plotting parameters for GdObjects</td></tr>
+<tr><td style="width: 25%;"><a href="settings.html">getScheme</a></td>
+<td>Setting display parameters to control the look and feel of the plots</td></tr>
+<tr><td style="width: 25%;"><a href="GeneRegionTrack-class.html">group-method</a></td>
+<td>GeneRegionTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="GeneRegionTrack-class.html">group&lt;--method</a></td>
+<td>GeneRegionTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="grouping.html">grouping</a></td>
+<td>Grouping of annotation features</td></tr>
+<tr><td style="width: 25%;"><a href="Gviz-defunct.html">Gviz-defunct</a></td>
+<td>Defunct functions in package 'Gviz'</td></tr>
+<tr><td style="width: 25%;"><a href="Gviz-deprecated.html">Gviz-deprecated</a></td>
+<td>Deprecated functions in package 'Gviz'</td></tr>
+</table>
+
+<h2><a name="H">-- H --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="HighlightTrack-class.html">HighlightTrack</a></td>
+<td>HighlightTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="HighlightTrack-class.html">HighlightTrack-class</a></td>
+<td>HighlightTrack class and methods</td></tr>
+</table>
+
+<h2><a name="I">-- I --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="GeneRegionTrack-class.html">identifier-method</a></td>
+<td>GeneRegionTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="GeneRegionTrack-class.html">identifier&lt;--method</a></td>
+<td>GeneRegionTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="IdeogramTrack-class.html">IdeogramTrack</a></td>
+<td>IdeogramTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="IdeogramTrack-class.html">IdeogramTrack-class</a></td>
+<td>IdeogramTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">ideoTrack</a></td>
+<td>Data sets</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">idTrack</a></td>
+<td>Data sets</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">idxTrack</a></td>
+<td>Data sets</td></tr>
+<tr><td style="width: 25%;"><a href="AlignmentsTrack-class.html">initialize-method</a></td>
+<td>AlignmentsTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="BiomartGeneRegionTrack-class.html">initialize-method</a></td>
+<td>BiomartGeneRegionTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="CustomTrack-class.html">initialize-method</a></td>
+<td>CustomTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="GeneRegionTrack-class.html">initialize-method</a></td>
+<td>GeneRegionTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="HighlightTrack-class.html">initialize-method</a></td>
+<td>HighlightTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="IdeogramTrack-class.html">initialize-method</a></td>
+<td>IdeogramTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">initialize-method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="ReferenceTrack-class.html">initialize-method</a></td>
+<td>ReferenceTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="SequenceTrack-class.html">initialize-method</a></td>
+<td>SequenceTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="StackedTrack-class.html">initialize-method</a></td>
+<td>StackedTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">iTrack</a></td>
+<td>Data sets</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">itrack</a></td>
+<td>Data sets</td></tr>
+</table>
+
+<h2><a name="K">-- K --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="datasets.html">knownGenes</a></td>
+<td>Data sets</td></tr>
+</table>
+
+<h2><a name="L">-- L --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="HighlightTrack-class.html">length-method</a></td>
+<td>HighlightTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="IdeogramTrack-class.html">length-method</a></td>
+<td>IdeogramTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">length-method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="SequenceTrack-class.html">length-method</a></td>
+<td>SequenceTrack class and methods</td></tr>
+</table>
+
+<h2><a name="M">-- M --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">max-method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">min-method</a></td>
+<td>RangeTrack class and methods</td></tr>
+</table>
+
+<h2><a name="N">-- N --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="NumericTrack-class.html">NumericTrack-class</a></td>
+<td>NumericTrack class and methods</td></tr>
+</table>
+
+<h2><a name="P">-- P --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="plotTracks.html">plotTracks</a></td>
+<td>The main plotting function for one or several Gviz tracks.</td></tr>
+<tr><td style="width: 25%;"><a href="IdeogramTrack-class.html">position-method</a></td>
+<td>IdeogramTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">position-method</a></td>
+<td>RangeTrack class and methods</td></tr>
+</table>
+
+<h2><a name="R">-- R --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">range-method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">ranges-method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">RangeTrack-class</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="AlignmentsTrack-class.html">ReferenceAlignmentsTrack-class</a></td>
+<td>AlignmentsTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="GeneRegionTrack-class.html">ReferenceGeneRegionTrack-class</a></td>
+<td>GeneRegionTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="SequenceTrack-class.html">ReferenceSequenceTrack-class</a></td>
+<td>SequenceTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="ReferenceTrack-class.html">ReferenceTrack-class</a></td>
+<td>ReferenceTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">refGenes</a></td>
+<td>Data sets</td></tr>
+<tr><td style="width: 25%;"><a href="SequenceTrack-class.html">RNASequenceTrack</a></td>
+<td>SequenceTrack class and methods</td></tr>
+</table>
+
+<h2><a name="S">-- S --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">seqinfo-method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">seqlevels-method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="SequenceTrack-class.html">seqlevels-method</a></td>
+<td>SequenceTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">seqnames-method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="SequenceTrack-class.html">seqnames-method</a></td>
+<td>SequenceTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="SequenceTrack-class.html">SequenceBSgenomeTrack-class</a></td>
+<td>SequenceTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="SequenceTrack-class.html">SequenceDNAStringSetTrack-class</a></td>
+<td>SequenceTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="SequenceTrack-class.html">SequenceRNAStringSetTrack-class</a></td>
+<td>SequenceTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="SequenceTrack-class.html">SequenceTrack</a></td>
+<td>SequenceTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="SequenceTrack-class.html">SequenceTrack-class</a></td>
+<td>SequenceTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="DisplayPars-class.html">setPar</a></td>
+<td>DisplayPars: A class to control the plotting parameters for GdObjects</td></tr>
+<tr><td style="width: 25%;"><a href="DisplayPars-class.html">setPar-method</a></td>
+<td>DisplayPars: A class to control the plotting parameters for GdObjects</td></tr>
+<tr><td style="width: 25%;"><a href="AlignmentsTrack-class.html">setStacks-method</a></td>
+<td>AlignmentsTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="HighlightTrack-class.html">setStacks-method</a></td>
+<td>HighlightTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="StackedTrack-class.html">setStacks-method</a></td>
+<td>StackedTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="settings.html">settings</a></td>
+<td>Setting display parameters to control the look and feel of the plots</td></tr>
+<tr><td style="width: 25%;"><a href="AlignmentsTrack-class.html">show-method</a></td>
+<td>AlignmentsTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="CustomTrack-class.html">show-method</a></td>
+<td>CustomTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="DisplayPars-class.html">show-method</a></td>
+<td>DisplayPars: A class to control the plotting parameters for GdObjects</td></tr>
+<tr><td style="width: 25%;"><a href="GeneRegionTrack-class.html">show-method</a></td>
+<td>GeneRegionTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="HighlightTrack-class.html">show-method</a></td>
+<td>HighlightTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="IdeogramTrack-class.html">show-method</a></td>
+<td>IdeogramTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="SequenceTrack-class.html">show-method</a></td>
+<td>SequenceTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">snpLocations</a></td>
+<td>Data sets</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">split-method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="StackedTrack-class.html">StackedTrack-class</a></td>
+<td>StackedTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="StackedTrack-class.html">stacking-method</a></td>
+<td>StackedTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="StackedTrack-class.html">stacking&lt;--method</a></td>
+<td>StackedTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="AlignmentsTrack-class.html">stacks-method</a></td>
+<td>AlignmentsTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="StackedTrack-class.html">stacks-method</a></td>
+<td>StackedTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="IdeogramTrack-class.html">start-method</a></td>
+<td>IdeogramTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">start-method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="SequenceTrack-class.html">start-method</a></td>
+<td>SequenceTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="IdeogramTrack-class.html">start&lt;--method</a></td>
+<td>IdeogramTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">start&lt;--method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">strand-method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">strand&lt;--method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="AlignmentsTrack-class.html">subset-method</a></td>
+<td>AlignmentsTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="BiomartGeneRegionTrack-class.html">subset-method</a></td>
+<td>BiomartGeneRegionTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="GeneRegionTrack-class.html">subset-method</a></td>
+<td>GeneRegionTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="HighlightTrack-class.html">subset-method</a></td>
+<td>HighlightTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="IdeogramTrack-class.html">subset-method</a></td>
+<td>IdeogramTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">subset-method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="StackedTrack-class.html">subset-method</a></td>
+<td>StackedTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="GeneRegionTrack-class.html">symbol-method</a></td>
+<td>GeneRegionTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="GeneRegionTrack-class.html">symbol&lt;--method</a></td>
+<td>GeneRegionTrack class and methods</td></tr>
+</table>
+
+<h2><a name="T">-- T --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="datasets.html">to</a></td>
+<td>Data sets</td></tr>
+<tr><td style="width: 25%;"><a href="GeneRegionTrack-class.html">transcript-method</a></td>
+<td>GeneRegionTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="GeneRegionTrack-class.html">transcript&lt;--method</a></td>
+<td>GeneRegionTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="datasets.html">twoGroups</a></td>
+<td>Data sets</td></tr>
+</table>
+
+<h2><a name="U">-- U --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="UcscTrack.html">UcscTrack</a></td>
+<td>Meta-constructor for Gviz tracks fetched directly from the various UCSC data sources.</td></tr>
+</table>
+
+<h2><a name="V">-- V --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="AlignmentsTrack-class.html">values-method</a></td>
+<td>AlignmentsTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">values-method</a></td>
+<td>RangeTrack class and methods</td></tr>
+</table>
+
+<h2><a name="W">-- W --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="IdeogramTrack-class.html">width-method</a></td>
+<td>IdeogramTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">width-method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="SequenceTrack-class.html">width-method</a></td>
+<td>SequenceTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="IdeogramTrack-class.html">width&lt;--method</a></td>
+<td>IdeogramTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">width&lt;--method</a></td>
+<td>RangeTrack class and methods</td></tr>
+</table>
+
+<h2><a name="misc">-- misc --</a></h2>
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="DisplayPars-class.html">.DisplayPars</a></td>
+<td>DisplayPars: A class to control the plotting parameters for GdObjects</td></tr>
+<tr><td style="width: 25%;"><a href="IdeogramTrack-class.html">[-method</a></td>
+<td>IdeogramTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="RangeTrack-class.html">[-method</a></td>
+<td>RangeTrack class and methods</td></tr>
+<tr><td style="width: 25%;"><a href="StackedTrack-class.html">[-method</a></td>
+<td>StackedTrack class and methods</td></tr>
+</table>
+</div></body></html>

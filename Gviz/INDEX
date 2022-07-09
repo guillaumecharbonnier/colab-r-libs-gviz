@@ -1,0 +1,29 @@
+AlignmentsTrack-class   AlignmentsTrack class and methods
+BiomartGeneRegionTrack-class
+                        BiomartGeneRegionTrack class and methods
+CustomTrack-class       CustomTrack class and methods
+DisplayPars-class       DisplayPars: A class to control the plotting
+                        parameters for GdObjects
+GeneRegionTrack-class   GeneRegionTrack class and methods
+Gviz-defunct            Defunct functions in package 'Gviz'
+Gviz-deprecated         Deprecated functions in package 'Gviz'
+HighlightTrack-class    HighlightTrack class and methods
+IdeogramTrack-class     IdeogramTrack class and methods
+NumericTrack-class      NumericTrack class and methods
+RangeTrack-class        RangeTrack class and methods
+SequenceTrack-class     SequenceTrack class and methods
+StackedTrack-class      StackedTrack class and methods
+UcscTrack               Meta-constructor for Gviz tracks fetched
+                        directly from the various UCSC data sources.
+availableDefaultMapping
+                        ReferenceTrack class and methods
+collapsing              Dynamic content based on the available
+                        resolution
+datasets                Data sets
+exportTracks            Export Gviz tracks into an annotation file
+                        representation.
+grouping                Grouping of annotation features
+plotTracks              The main plotting function for one or several
+                        Gviz tracks.
+settings                Setting display parameters to control the look
+                        and feel of the plots

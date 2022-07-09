@@ -1,0 +1,23 @@
+Package: ProtGenerics
+Title: Generic infrastructure for Bioconductor mass spectrometry
+        packages
+Description: S4 generic functions and classes needed by Bioconductor
+        proteomics packages.
+Version: 1.28.0
+Author: Laurent Gatto <laurent.gatto@uclouvain.be>,
+    Johannes Rainer <johannes.rainer@eurac.edu>
+Maintainer: Laurent Gatto <laurent.gatto@uclouvain.be>
+biocViews: Infrastructure, Proteomics, MassSpectrometry
+URL: https://github.com/RforMassSpectrometry/ProtGenerics
+Depends: methods
+Suggests: testthat
+License: Artistic-2.0
+NeedsCompilation: no
+RoxygenNote: 7.1.1
+git_url: https://git.bioconductor.org/packages/ProtGenerics
+git_branch: RELEASE_3_15
+git_last_commit: cfcd0a9
+git_last_commit_date: 2022-04-26
+Date/Publication: 2022-04-26
+Packaged: 2022-04-26 21:39:18 UTC; biocbuild
+Built: R 4.2.0; ; 2022-07-09 14:30:06 UTC; unix
